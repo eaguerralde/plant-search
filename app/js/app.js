@@ -11,16 +11,17 @@
 //}) ;
 
 // Declare app level module which depends on filters, and services
-var app = angular.module('myApp', [
+var app = angular.module('seedsApp', [
   'ngRoute',
-  'myApp.filters',
-  'myApp.services',
-  'myApp.directives',
-  'myApp.controllers'
+  'seedsApp.animations',
+  'seedsApp.filters',
+  'seedsApp.services',
+  'seedsApp.directives',
+  'seedsApp.controllers'
 ])
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {templateUrl: 'partials/search.html', controller: 'SearchCtrl'});
-  $routeProvider.when('/detail', {templateUrl: 'partials/detail.html', controller: 'DetailsCtrl'});
+  $routeProvider.when('/detail/:entryId', {templateUrl: 'partials/detail.html', controller: 'DetailsCtrl'});
   $routeProvider.otherwise({redirectTo: '/'});
 }])
 .config(['$httpProvider', function($httpProvider) {

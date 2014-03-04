@@ -28,3 +28,15 @@
   content: "";
   padding: 0;
 }
+
+.ng-enter {background: red;}
+.ng-leave {background: blue;}
+.ng-move  {background: green;}
+.loadPanel.ng-enter {background: red;}
+.loadPanel.ng-leave {background: blue;}
+.loadPanel.ng-move  {background: green;}
+
+ .loadPanel.ng-enter { }        
+ .loadPanel.ng-enter-active { } 
+ .loadPanel.ng-leave { }        
+ .loadPanel.ng-leave-active { } 

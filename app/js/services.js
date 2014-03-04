@@ -2,15 +2,15 @@
 
 /* Services */
 
-angular.module('myApp.services', [])
+angular.module('seedsApp.services', [])
 .value('version', '0.1')
 .factory('Taxonomy', function($http){
         var factory = {};
-        factory.list = function(){
-            //return $http.get('http://www.itis.gov/ITISWebService/jsonservice/ITISService/searchForAnyMatchPaged?srchKey=homo%20sapiens&pageSize=10&pageNum=1&ascend=false');
-            return $http({method: 'GET'
+        factory.list = function(srchKey){
+            //return $http.get('http://www.itis.gov/ITISWebService/jsonservice/ITISService/searchForAnyMatchPaged?srchKey=' + srchKey + '&pageSize=10&pageNum=1&ascend=false');
+            return $http({method: 'POST'
+                , data: {srchKey: srchKey}
                 , url: 'getData.php'});
-                //, url: 'http://google.com'});
         };
         
         return factory;
