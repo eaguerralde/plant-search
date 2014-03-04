@@ -1,16 +1,30 @@
 'use strict';
 
+//  angular.module('myApp.factories').factory('ajaxFactory', function(){
+//        var factory = {};
+//        
+//        factory.getAjax = function($http){
+//            return $http.get('http://google.com');
+//        };
+//        
+//        return factory;
+//}) ;
 
 // Declare app level module which depends on filters, and services
-angular.module('myApp', [
+var app = angular.module('myApp', [
   'ngRoute',
   'myApp.filters',
   'myApp.services',
   'myApp.directives',
   'myApp.controllers'
-]).
-config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view1', {templateUrl: 'partials/partial1.html', controller: 'MyCtrl1'});
-  $routeProvider.when('/view2', {templateUrl: 'partials/partial2.html', controller: 'MyCtrl2'});
-  $routeProvider.otherwise({redirectTo: '/view1'});
-}]);
+])
+.config(['$routeProvider', function($routeProvider) {
+  $routeProvider.when('/', {templateUrl: 'partials/search.html', controller: 'SearchCtrl'});
+  $routeProvider.when('/detail', {templateUrl: 'partials/detail.html', controller: 'DetailsCtrl'});
+  $routeProvider.otherwise({redirectTo: '/'});
+}])
+.config(['$httpProvider', function($httpProvider) {
+        $httpProvider.defaults.useXDomain = true;
+  delete $httpProvider.defaults.headers.common['X-Requested-With'];
+}])
+

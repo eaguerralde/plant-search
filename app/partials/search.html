@@ -1,0 +1,11 @@
+<h2>Search</h2>
+<p>{{ dataClass }}</p>
+  <ul ng-repeat="result in resultList">
+      <li>
+          tsn: {{ result.tsn }}<br />
+          sciName : {{ result.sciName }}<br />
+          <div ng-repeat="name in result.commonNameList.commonNames">
+                {{ name.commonName }} : {{ name.language }}
+            </div>
+      </li>
+  </ul>

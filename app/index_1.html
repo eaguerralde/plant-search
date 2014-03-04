@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" ng-app="mySeeds">
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+  <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body ng-controller="seedsController">
+  <ul class="menu">
+    <li><a href="#/view1">view1</a></li>
+    <li><a href="#/view2">view2</a></li>
+  </ul>
+
+  <input type="text" ng-model="dataClass" />
+  <ul ng-repeat="result in resultList">
+      <li>
+          <div ng-repeat="(key, value) in result">
+                {{key}} : {{value}}
+            </div>
+      </li>
+  </ul>
+
+  {{ someSeeds }}
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular/angular-route.js"></script>
+  <script >
+      var app = angular.module('mySeeds', []);
+      app.controller('seedsController',function($scope, ajaxFactory){
+          function init(){
+              ajaxFactory.getAjax().success(function(data){
+          $scope.resultList = data.anyMatchList;
+          $scope.dataClass = data.class;
+                  
+              });
+          }
+          init();
+      })
+.config(['$httpProvider', function($httpProvider) {
+        $httpProvider.defaults.useXDomain = true;
+  delete $httpProvider.defaults.headers.common['X-Requested-With'];
+}]);
+      
+        app.factory('ajaxFactory', function($http){
+                var factory = {};
+
+                factory.getAjax = function(){
+                    return $http.get('getData.php');
+                };
+
+                return factory;
+        }) ;
+  </script>
+</html>
