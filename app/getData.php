@@ -1,13 +1,22 @@
 <?php
-$request = json_decode(file_get_contents('php://input'));
+$request = json_decode(file_get_contents('php://input'));//json
+$requestType = $_REQUEST['srv'];//querystring
+$urlItis = 'http://www.itis.gov/ITISWebService/jsonservice/ITISService/searchForAnyMatchPaged?pageSize=10&pageNum=1&ascend=false';
+$urlWiki = 'http://en.wikipedia.org/w/api.php?action=query&format=json&prop=info|images';
+$url = $requestType == 'wiki' ? $urlWiki : $urlItis;
 $queryString = '';
-$url = 'http://www.itis.gov/ITISWebService/jsonservice/ITISService/searchForAnyMatchPaged?pageSize=10&pageNum=1&ascend=false';
 
-foreach ($request as $key => $value) {
-    $queryString .= '&' . $key . '=' . $value;
+if($request){
+    foreach ($request as $key => $value) {
+        if($key != 'srv'){//type of service, ignore this one
+            $queryString .= '&' . $key . '=' . $value;
+        }
+    }
+
+    $url .= $queryString;
 }
-$url .= $queryString;
 //echo $url;
+    
 try
   {
 //    $json = file_get_contents( $url );

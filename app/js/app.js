@@ -21,7 +21,7 @@ var app = angular.module('seedsApp', [
 ])
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {templateUrl: 'partials/search.html', controller: 'SearchCtrl'});
-  $routeProvider.when('/detail/:entryId', {templateUrl: 'partials/detail.html', controller: 'DetailsCtrl'});
+  $routeProvider.when('/detail/:taxonomyId', {templateUrl: 'partials/detail.html', controller: 'DetailsCtrl'});
   $routeProvider.otherwise({redirectTo: '/'});
 }])
 .config(['$httpProvider', function($httpProvider) {

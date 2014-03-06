@@ -1,6 +1,14 @@
-<p>This is the partial for view 3.</p>
-{{ taxonomyId }}
+<h2>Details</h2>
 <p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
+{{ taxonomyId }}
 </p>
+<ul>
+    <li data-ng-repeat="result in resultSet.query.pages">
+                {{ result.pageid }}
+        <ul>
+            <li data-ng-repeat="image in result.images">
+                {{ image.title }}
+            </li>
+        </ul>
+    </li>
+</ul>
