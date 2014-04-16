@@ -1,6 +1,6 @@
 var seedsAnimations = angular.module('seedsApp.animations', ['ngAnimate']);
 
-seedsAnimations.animation('.loadPanel', function() {
+seedsAnimations.animation('.load-panel', function() {
 
   var animateUp = function(element, className, done) {
     if(className != 'active') {

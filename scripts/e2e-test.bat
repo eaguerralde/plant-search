@@ -7,6 +7,6 @@ REM Requirements:
 REM - NodeJS (http://nodejs.org/)
 REM - Protractor (npm install -g protractor)
 
-set BASE_DIR=%~dp0
-webdriver-manager update
-protractor "%BASE_DIR%\..\config\protractor-conf.js" %*
+REM set BASE_DIR=%~dp0
+REM webdriver-manager update
+protractor "..\..\config\protractor-conf.js" %*

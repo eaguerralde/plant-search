@@ -1,18 +1,10 @@
 'use strict';
 
-//  angular.module('myApp.factories').factory('ajaxFactory', function(){
-//        var factory = {};
-//        
-//        factory.getAjax = function($http){
-//            return $http.get('http://google.com');
-//        };
-//        
-//        return factory;
-//}) ;
-
 // Declare app level module which depends on filters, and services
 var app = angular.module('seedsApp', [
   'ngRoute',
+  'ngSanitize',
+  
   'seedsApp.animations',
   'seedsApp.filters',
   'seedsApp.services',

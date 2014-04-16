@@ -1,14 +1,19 @@
-<h2>Details</h2>
-<p>
-{{ taxonomyId }}
-</p>
-<ul>
-    <li data-ng-repeat="result in resultSet.query.pages">
-                {{ result.pageid }}
-        <ul>
-            <li data-ng-repeat="image in result.images">
-                {{ image.title }}
-            </li>
-        </ul>
-    </li>
-</ul>
+<a href="/angular-seed-test/app/">Back</a>
+<h2 class="title">Details</h2>
+<h3>Results for <span class="search-term">{{ taxonomyId }}</span></h3>
+cache: {{ status }}
+
+<div class="row detail">
+    <div class="col-lg-3 col-sm-4 col-xs-12 load-panel item" data-ng-repeat="result in resultSet.query.search">
+        <div class="button">
+            <h3>{{ result.title }}</h3>
+            <div data-ng-bind-html="result.snippet"></div>
+        </div>
+    </div>
+</div>
+<!--<div class="row">
+    <div class="col-xs-4" data-ng-repeat="image in resultSet.query.allimages">
+        <p>{{ image.name }}</p>
+        <img data-ng-src="{{image.url}}" alt="{{ image.name }}"/>
+    </div>
+</div>-->

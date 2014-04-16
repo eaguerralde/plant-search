@@ -1,163 +1,521 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
-1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'install' ]
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'java' ]
 2 info using npm@1.3.17
 3 info using node@v0.10.23
-4 verbose readDependencies using package.json deps
-5 verbose install where, deps [ 'c:\\xampp\\htdocs\\angular-seed-test',
-5 verbose install   [ 'phantomjs',
-5 verbose install     'karma',
-5 verbose install     'karma-junit-reporter',
-5 verbose install     'karma-jasmine',
-5 verbose install     'protractor' ] ]
-6 info preinstall angularjs-seed@
-7 verbose readDependencies using package.json deps
-8 verbose already installed skipping phantomjs@~1.9 c:\xampp\htdocs\angular-seed-test
-9 verbose already installed skipping karma@~0.10 c:\xampp\htdocs\angular-seed-test
-10 verbose already installed skipping karma-junit-reporter@~0.1 c:\xampp\htdocs\angular-seed-test
-11 verbose already installed skipping karma-jasmine@~0.1 c:\xampp\htdocs\angular-seed-test
-12 verbose already installed skipping protractor@~0.17.0 c:\xampp\htdocs\angular-seed-test
-13 silly resolved []
-14 info build c:\xampp\htdocs\angular-seed-test
-15 verbose linkStuff [ false, false, false, 'c:\\xampp\\htdocs' ]
-16 info linkStuff angularjs-seed@
-17 verbose linkBins angularjs-seed@
-18 verbose linkMans angularjs-seed@
-19 verbose rebuildBundles angularjs-seed@
-20 verbose rebuildBundles [ '.bin',
-20 verbose rebuildBundles   'karma',
-20 verbose rebuildBundles   'karma-chrome-launcher',
-20 verbose rebuildBundles   'karma-coffee-preprocessor',
-20 verbose rebuildBundles   'karma-firefox-launcher',
-20 verbose rebuildBundles   'karma-html2js-preprocessor',
-20 verbose rebuildBundles   'karma-jasmine',
-20 verbose rebuildBundles   'karma-junit-reporter',
-20 verbose rebuildBundles   'karma-phantomjs-launcher',
-20 verbose rebuildBundles   'karma-requirejs',
-20 verbose rebuildBundles   'karma-script-launcher',
-20 verbose rebuildBundles   'phantomjs',
-20 verbose rebuildBundles   'protractor',
-20 verbose rebuildBundles   'requirejs' ]
-21 verbose rebuild bundle c:\xampp\htdocs\angular-seed-test\node_modules\karma-chrome-launcher
-22 info build c:\xampp\htdocs\angular-seed-test\node_modules\karma-chrome-launcher
-23 info preinstall karma-chrome-launcher@0.1.2
-24 verbose linkStuff [ false,
-24 verbose linkStuff   false,
-24 verbose linkStuff   false,
-24 verbose linkStuff   'c:\\xampp\\htdocs\\angular-seed-test\\node_modules' ]
-25 info linkStuff karma-chrome-launcher@0.1.2
-26 verbose linkBins karma-chrome-launcher@0.1.2
-27 verbose linkMans karma-chrome-launcher@0.1.2
-28 verbose rebuildBundles karma-chrome-launcher@0.1.2
-29 info install karma-chrome-launcher@0.1.2
-30 info postinstall karma-chrome-launcher@0.1.2
-31 verbose rebuild bundle c:\xampp\htdocs\angular-seed-test\node_modules\karma-coffee-preprocessor
-32 info build c:\xampp\htdocs\angular-seed-test\node_modules\karma-coffee-preprocessor
-33 info preinstall karma-coffee-preprocessor@0.1.3
-34 verbose linkStuff [ false,
-34 verbose linkStuff   false,
-34 verbose linkStuff   false,
-34 verbose linkStuff   'c:\\xampp\\htdocs\\angular-seed-test\\node_modules' ]
-35 info linkStuff karma-coffee-preprocessor@0.1.3
-36 verbose linkBins karma-coffee-preprocessor@0.1.3
-37 verbose linkMans karma-coffee-preprocessor@0.1.3
-38 verbose rebuildBundles karma-coffee-preprocessor@0.1.3
-39 verbose rebuildBundles [ '.bin', 'coffee-script' ]
-40 info install karma-coffee-preprocessor@0.1.3
-41 info postinstall karma-coffee-preprocessor@0.1.3
-42 verbose rebuild bundle c:\xampp\htdocs\angular-seed-test\node_modules\karma-firefox-launcher
-43 info build c:\xampp\htdocs\angular-seed-test\node_modules\karma-firefox-launcher
-44 info preinstall karma-firefox-launcher@0.1.3
-45 verbose linkStuff [ false,
-45 verbose linkStuff   false,
-45 verbose linkStuff   false,
-45 verbose linkStuff   'c:\\xampp\\htdocs\\angular-seed-test\\node_modules' ]
-46 info linkStuff karma-firefox-launcher@0.1.3
-47 verbose linkBins karma-firefox-launcher@0.1.3
-48 verbose linkMans karma-firefox-launcher@0.1.3
-49 verbose rebuildBundles karma-firefox-launcher@0.1.3
-50 info install karma-firefox-launcher@0.1.3
-51 info postinstall karma-firefox-launcher@0.1.3
-52 verbose rebuild bundle c:\xampp\htdocs\angular-seed-test\node_modules\karma-html2js-preprocessor
-53 info build c:\xampp\htdocs\angular-seed-test\node_modules\karma-html2js-preprocessor
-54 info preinstall karma-html2js-preprocessor@0.1.0
-55 verbose linkStuff [ false,
-55 verbose linkStuff   false,
-55 verbose linkStuff   false,
-55 verbose linkStuff   'c:\\xampp\\htdocs\\angular-seed-test\\node_modules' ]
-56 info linkStuff karma-html2js-preprocessor@0.1.0
-57 verbose linkBins karma-html2js-preprocessor@0.1.0
-58 verbose linkMans karma-html2js-preprocessor@0.1.0
-59 verbose rebuildBundles karma-html2js-preprocessor@0.1.0
-60 info install karma-html2js-preprocessor@0.1.0
-61 info postinstall karma-html2js-preprocessor@0.1.0
-62 verbose rebuild bundle c:\xampp\htdocs\angular-seed-test\node_modules\karma-phantomjs-launcher
-63 info build c:\xampp\htdocs\angular-seed-test\node_modules\karma-phantomjs-launcher
-64 info preinstall karma-phantomjs-launcher@0.1.2
-65 verbose linkStuff [ false,
-65 verbose linkStuff   false,
-65 verbose linkStuff   false,
-65 verbose linkStuff   'c:\\xampp\\htdocs\\angular-seed-test\\node_modules' ]
-66 info linkStuff karma-phantomjs-launcher@0.1.2
-67 verbose linkBins karma-phantomjs-launcher@0.1.2
-68 verbose linkMans karma-phantomjs-launcher@0.1.2
-69 verbose rebuildBundles karma-phantomjs-launcher@0.1.2
-70 info install karma-phantomjs-launcher@0.1.2
-71 info postinstall karma-phantomjs-launcher@0.1.2
-72 verbose rebuild bundle c:\xampp\htdocs\angular-seed-test\node_modules\karma-requirejs
-73 info build c:\xampp\htdocs\angular-seed-test\node_modules\karma-requirejs
-74 info preinstall karma-requirejs@0.2.1
-75 verbose linkStuff [ false,
-75 verbose linkStuff   false,
-75 verbose linkStuff   false,
-75 verbose linkStuff   'c:\\xampp\\htdocs\\angular-seed-test\\node_modules' ]
-76 info linkStuff karma-requirejs@0.2.1
-77 verbose linkBins karma-requirejs@0.2.1
-78 verbose linkMans karma-requirejs@0.2.1
-79 verbose rebuildBundles karma-requirejs@0.2.1
-80 info install karma-requirejs@0.2.1
-81 info postinstall karma-requirejs@0.2.1
-82 verbose rebuild bundle c:\xampp\htdocs\angular-seed-test\node_modules\karma-script-launcher
-83 info build c:\xampp\htdocs\angular-seed-test\node_modules\karma-script-launcher
-84 info preinstall karma-script-launcher@0.1.0
-85 verbose linkStuff [ false,
-85 verbose linkStuff   false,
-85 verbose linkStuff   false,
-85 verbose linkStuff   'c:\\xampp\\htdocs\\angular-seed-test\\node_modules' ]
-86 info linkStuff karma-script-launcher@0.1.0
-87 verbose linkBins karma-script-launcher@0.1.0
-88 verbose linkMans karma-script-launcher@0.1.0
-89 verbose rebuildBundles karma-script-launcher@0.1.0
-90 info install karma-script-launcher@0.1.0
-91 info postinstall karma-script-launcher@0.1.0
-92 verbose rebuild bundle c:\xampp\htdocs\angular-seed-test\node_modules\requirejs
-93 info build c:\xampp\htdocs\angular-seed-test\node_modules\requirejs
-94 info preinstall requirejs@2.1.11
-95 verbose linkStuff [ false,
-95 verbose linkStuff   false,
-95 verbose linkStuff   false,
-95 verbose linkStuff   'c:\\xampp\\htdocs\\angular-seed-test\\node_modules' ]
-96 info linkStuff requirejs@2.1.11
-97 verbose linkBins requirejs@2.1.11
-98 verbose link bins [ { 'r.js': './bin/r.js' },
-98 verbose link bins   'c:\\xampp\\htdocs\\angular-seed-test\\node_modules\\.bin',
-98 verbose link bins   false ]
-99 verbose linkMans requirejs@2.1.11
-100 verbose rebuildBundles requirejs@2.1.11
-101 error Error: EPERM, open 'c:\xampp\htdocs\angular-seed-test\node_modules\.bin\r.js.cmd'
-101 error  { [Error: EPERM, open 'c:\xampp\htdocs\angular-seed-test\node_modules\.bin\r.js.cmd']
-101 error   errno: 50,
-101 error   code: 'EPERM',
-101 error   path: 'c:\\xampp\\htdocs\\angular-seed-test\\node_modules\\.bin\\r.js.cmd' }
-102 error Please try running this command again as root/Administrator.
-103 error System Windows_NT 6.1.7601
-104 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
-105 error cwd c:\xampp\htdocs\angular-seed-test
-106 error node -v v0.10.23
-107 error npm -v 1.3.17
-108 error path c:\xampp\htdocs\angular-seed-test\node_modules\.bin\r.js.cmd
-109 error code EPERM
-110 error errno 50
-111 error stack Error: EPERM, open 'c:\xampp\htdocs\angular-seed-test\node_modules\.bin\r.js.cmd'
-112 verbose exit [ 50, true ]
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'java', null ]
+7 verbose cache add name=undefined spec="java" args=["java",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'java',
+8 verbose parsed url   path: 'java',
+8 verbose parsed url   href: 'java' }
+9 silly lockFile 23524be9-java java
+10 verbose lock java C:\Users\Medion\AppData\Roaming\npm-cache\23524be9-java.lock
+11 silly lockFile 23524be9-java java
+12 silly lockFile 23524be9-java java
+13 verbose addNamed [ 'java', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 0f6a664b-java java@
+16 verbose lock java@ C:\Users\Medion\AppData\Roaming\npm-cache\0f6a664b-java.lock
+17 silly addNameRange { name: 'java', range: '*', hasData: false }
+18 verbose url raw java
+19 verbose url resolving [ 'https://registry.npmjs.org/', './java' ]
+20 verbose url resolved https://registry.npmjs.org/java
+21 info trying registry request attempt 1 at 23:16:56
+22 verbose etag "6AGGVXQFP5VQ718SOX7K52AJO"
+23 http GET https://registry.npmjs.org/java
+24 http 304 https://registry.npmjs.org/java
+25 silly registry.get cb [ 304,
+25 silly registry.get   { date: 'Mon, 14 Apr 2014 22:16:54 GMT',
+25 silly registry.get     server: 'Apache',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     'last-modified': 'Mon, 14 Apr 2014 22:16:55 GMT',
+25 silly registry.get     'cache-control': 'max-age=1',
+25 silly registry.get     etag: '"6AGGVXQFP5VQ718SOX7K52AJO"',
+25 silly registry.get     'x-served-by': 'cache-lo82-LHR',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1397513814.932482004,VS0,VE182',
+25 silly registry.get     vary: 'Accept',
+25 silly registry.get     'content-length': '0',
+25 silly registry.get     'keep-alive': 'timeout=10, max=50',
+25 silly registry.get     connection: 'Keep-Alive' } ]
+26 verbose etag java from cache
+27 silly addNameRange number 2 { name: 'java', range: '*', hasData: true }
+28 silly addNameRange versions [ 'java',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.0.5',
+28 silly addNameRange     '0.0.6',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.1.3',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.2.3',
+28 silly addNameRange     '0.2.4',
+28 silly addNameRange     '0.2.5',
+28 silly addNameRange     '0.2.6',
+28 silly addNameRange     '0.2.7',
+28 silly addNameRange     '0.2.8',
+28 silly addNameRange     '0.2.9',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1' ] ]
+29 verbose addNamed [ 'java', '0.3.1' ]
+30 verbose addNamed [ '0.3.1', '0.3.1' ]
+31 silly lockFile ff438c2d-java-0-3-1 java@0.3.1
+32 verbose lock java@0.3.1 C:\Users\Medion\AppData\Roaming\npm-cache\ff438c2d-java-0-3-1.lock
+33 silly lockFile ff438c2d-java-0-3-1 java@0.3.1
+34 silly lockFile ff438c2d-java-0-3-1 java@0.3.1
+35 silly lockFile 0f6a664b-java java@
+36 silly lockFile 0f6a664b-java java@
+37 silly resolved [ { name: 'java',
+37 silly resolved     description: 'Bridge API to connect with existing Java APIs.',
+37 silly resolved     author: { name: 'Joe Ferner', email: 'joe@fernsroth.com' },
+37 silly resolved     keywords: [ 'java', 'jvm', 'bridge' ],
+37 silly resolved     version: '0.3.1',
+37 silly resolved     engines: { node: '>=0.6.0' },
+37 silly resolved     maintainers: [ [Object] ],
+37 silly resolved     bugs: { url: 'https://github.com/joeferner/node-java/issues' },
+37 silly resolved     license: 'MIT',
+37 silly resolved     repository:
+37 silly resolved      { type: 'git',
+37 silly resolved        url: 'https://github.com/joeferner/node-java.git' },
+37 silly resolved     dependencies: { 'find-java-home': '0.0.6' },
+37 silly resolved     devDependencies: { nodeunit: '~0.6.4', memwatch: '~0.2.0', async: '~0.1.22' },
+37 silly resolved     scripts: { test: 'nodeunit test', install: 'node-gyp rebuild' },
+37 silly resolved     main: './index.js',
+37 silly resolved     gypfile: true,
+37 silly resolved     readme: '# java\n\nBridge API to connect with existing Java APIs.\n\n[Google Groups Discussion Forum](https://groups.google.com/forum/#!forum/node-java)\n\n## Installation Linux/Windows\n\n```bash\n$ export JAVA_HOME=/usr/local/share/jdk1.6.0_30\n$ npm install java\n```\n\nNotes:\n* node-gyp requires python 2.x not python 3.x. See https://github.com/TooTallNate/node-gyp/issues/155 for more details.\n* If you see an error such as "No rule to make target \'/opt/jdk1.7.0_09/jre/lib/amd64/server/libjvm.so\', needed by \'build/depsVerified\'.  Stop."\n      this means that your JAVA_HOME is not set correctly and you need to verify the location of libjvm.so or jvm.lib.\n* If you see an error such as "Error: The specified module could not be found. \n      xxxxxx\\node_modules\\java\\build\\Release\\nodejavabridge_bindings.node".\n      Ensure the directory where jvm.dll exists is in your PATH. (e.g. C:\\Program Files (x86)\\Java\\jdk1.6.0_18\\jre\\bin\\client).\n      This path cannot have quotes.\n* If you see an error such as "Call to \'node findJavaHome.js\' returned exit status 1"\n      Try running `node findJavaHome.js` in the node-java directory to see the full failure message.\n\n\n## Installation Mac\n\n```bash\n$ npm install java\n```\n\n_Mavericks Users: If you are having problems finding \'jni.h\' please see [Issue #86](https://github.com/nearinfinity/node-java/issues/86)_\n\n## Installation ARM (Raspberry Pi)\n\n```bash\nGYP_DEFINES="armv7=0" CCFLAGS=\'-march=armv6\' CXXFLAGS=\'-march=armv6\' npm install java\n```\n\n## Manual compile (Using node-gyp)\n\n```bash\n./compile-java-code.sh\nnode-gyp configure build\nnpm test\n```\n\n_NOTE: You will need node-gyp installed using "npm install -g node-gyp"_\n\n## Quick Examples\n\n```javascript\nvar java = require("java");\njava.classpath.push("commons-lang3-3.1.jar");\njava.classpath.push("commons-io.jar");\n\nvar list = java.newInstanceSync("java.util.ArrayList");\n\njava.newInstance("java.util.ArrayList", function(err, list) {\n  list.addSync("item1");\n  list.addSync("item2");\n});\n\nvar ArrayList = java.import(\'java.util.ArrayList\');\nvar list = new ArrayList();\nlist.addSync(\'item1\');\n```\n\n### Create a char array\n\n```javascript\nvar charArray = java.newArray("char", "hello world\\n".split(\'\'));\n```\n\n### Create a byte array\n\n```javascript\nvar byteArray = java.newArray(\n  "byte",\n  "hello world\\n"\n    .split(\'\')\n    .map(function(c) { return java.newByte(str.charCodeAt(c)); });\n```\n\n### Using java.lang.Long and long\n\nJavaScript only supports 32-bit integers. Because of this java longs must be treated specially.\nWhen getting a long result the value may be truncated. If you need the original value there is\na property off of the result called "longValue" which contains the un-truncated value as a string.\nIf you are calling a method that takes a long you must create it using [java.newInstance](#javaNewInstance).\n\n```javascript\nvar javaLong = java.newInstanceSync("java.lang.Long", 5);\nconsole.log(\'Possibly truncated long value: \' + javaLong);\nconsole.log(\'Original long value (as a string): \' + javaLong.longValue);\njava.callStaticMethodSync("Test", "staticMethodThatTakesALong", javaLong);\n```\n\n### Exceptions\n\nExceptions from calling methods either caught using JavaScript try/catch block or passed\nto a callback as the first parameter may have a property named "cause" which has a reference\nto the Java Exception object which caused the error.\n\n```javascript\ntry {\n  java.methodThatThrowsExceptionSync();\n} catch(ex) {\n  console.log(ex.cause.getMessageSync());\n}\n```\n\n# Release Notes\n\n### v0.2.0\n\n* java.lang.Long and long primitives are handled better. See\n  \\([Issue #37](https://github.com/nearinfinity/node-java/issues/37)\\) and\n  \\([Issue #40](https://github.com/nearinfinity/node-java/issues/40)\\).\n\n# Index\n\n## java\n * [classpath](#javaClasspath)\n * [options](#javaOptions)\n * [import](#javaImport)\n * [newInstance](#javaNewInstance)\n * [instanceOf](#javaInstanceOf)\n * [callStaticMethod](#javaCallStaticMethod)\n * [getStaticFieldValue](#javaGetStaticFieldValue)\n * [setStaticFieldValue](#javaSetStaticFieldValue)\n * [newArray](#javaNewArray)\n * [newByte](#javaNewByte)\n * [newShort](#javaNewShort)\n * [newLong](#javaNewLong)\n * [newChar](#javaNewChar)\n * [newDouble](#javaNewDouble)\n * [newFloat](#javaNewFloat)\n * [newProxy](#javaNewProxy)\n\n## java objects\n * [Call Method](#javaObjectCallMethod)\n * [Get/Set Field](#javaObjectGetSetField)\n\n# API Documentation\n\n<a name="java"/>\n## java\n\n<a name="javaClasspath" />\n**java.classpath**\n\nArray of paths or jars to pass to the creation of the JVM.\n\nAll items must be added to the classpath before calling any other node-java methods.\n\n__Example__\n\n    java.classpath.push(\'commons.io.jar\');\n\n<a name="javaOptions" />\n**java.options**\n\nArray of options to pass to the creation of the JVM.\n\nAll items must be added to the options before calling any other node-java methods.\n\n__Example__\n\n    java.options.push(\'-Djava.awt.headless=true\');\n    java.options.push(\'-Xmx1024m\');\n\n<a name="javaImport" />\n**java.import(className)**\n\nLoads the class given by className such that it acts and feels like a javascript object.\n\n__Arguments__\n\n * className - The name of the class to create. For subclasses seperate using a \'$\' (eg. com.nearinfinty.MyClass$SubClass)\n\n__Example__\n\n    var Test = java.import(\'Test\');\n    Test.someStaticMethodSync(5);\n    console.log(Test.someStaticField);\n\n    var test = new Test();\n    list.instanceMethodSync(\'item1\');\n\n<a name="javaNewInstance" />\n**java.newInstance(className, [args...], callback)**\n\n**java.newInstanceSync(className, [args...]) : result**\n\nCreates an instance of the specified class. If you are using the sync method an exception will be throw if an error occures,\notherwise it will be the first argument in the callback.\n\n__Arguments__\n\n * className - The name of the class to create. For subclasses seperate using a \'$\' (eg. com.nearinfinty.MyClass$SubClass)\n * callback(err, item) - Callback to be called when the class is created.\n\n__Example__\n\n    var list = java.newInstanceSync("java.util.ArrayList");\n\n    java.newInstance("java.util.ArrayList", function(err, list) {\n      if(err) { console.error(err); return; }\n      // new list\n    });\n\n<a name="javaInstanceOf" />\n**java.instanceOf(javaObject, className)**\n\nDetermines of a javaObject is an instance of a class.\n\n__Arguments__\n\n * javaObject - Instance of a java object returned from a method or from newInstance.\n * className - A string class name.\n\n__Example__\n\n    var obj = java.newInstanceSync("my.package.SubClass");\n\n    if(java.instanceOf(obj, "my.package.SuperClass")) {\n      console.log("obj is an instance of SuperClass");\n    }\n\n<a name="javaCallStaticMethod" />\n**java.callStaticMethod(className, methodName, [args...], callback)**\n\n**java.callStaticMethodSync(className, methodName, [args...]) : result**\n\nCalls a static method on the specified class. If you are using the sync method an exception will be throw if an error occures,\notherwise it will be the first argument in the callback.\n\n__Arguments__\n\n * className - The name of the class to call the method on. For subclasses seperate using a \'$\' (eg. com.nearinfinty.MyClass$SubClass)\n * methodName - The name of the method to call.\n * callback(err, item) - Callback to be called when the class is created.\n\n__Example__\n\n    var result = java.callStaticMethodSync("com.nearinfinty.MyClass", "doSomething", 42, "test");\n\n    java.callStaticMethod("com.nearinfinty.MyClass", "doSomething", 42, "test", function(err, results) {\n      if(err) { console.error(err); return; }\n      // results from doSomething\n    });\n\n<a name="javaGetStaticFieldValue" />\n**java.getStaticFieldValue(className, fieldName)**\n\nGets a static field value from the specified class.\n\n__Arguments__\n\n * className - The name of the class to get the value from. For subclasses seperate using a \'$\' (eg. com.nearinfinty.MyClass$SubClass)\n * fieldName - The name of the field to get the value from.\n\n__Example__\n\n    var data = java.getStaticFieldValue("com.nearinfinty.MyClass", "data");\n\n<a name="javaSetStaticFieldValue" />\n**java.setStaticFieldValue(className, fieldName, newValue)**\n\nSets a static field value on the specified class.\n\n__Arguments__\n\n * className - The name of the class to set the value on. For subclasses seperate using a \'$\' (eg. com.nearinfinty.MyClass$SubClass)\n * fieldName - The name of the field to set the value on.\n * newValue - The new value to assign to the field.\n\n__Example__\n\n    java.getStaticFieldValue("com.nearinfinty.MyClass", "data", "Hello World");\n\n<a name="javaNewArray" />\n**java.newArray(className, values[])**\n\nCreates a new java array of type class.\n\n__Arguments__\n\n * className - The name of the type of array elements. For subclasses seperate using a \'$\' (eg. com.nearinfinty.MyClass$SubClass)\n * values - A javascript array of values to assign to the java array.\n\n__Example__\n\n    var newArray = java.newArray("java.lang.String", ["item1", "item2", "item3"]);\n\n<a name="javaNewByte" />\n**java.newByte(val)**\n\nCreates a new java byte. This is needed because javascript does not have the concept of a byte.\n\n__Arguments__\n\n * val - The value of the java byte.\n\n__Example__\n\n    var b = java.newByte(12);\n\n<a name="javaNewShort" />\n**java.newShort(val)**\n\nCreates a new java short. This is needed because javascript does not have the concept of a short.\n\n__Arguments__\n\n * val - The value of the java short.\n\n__Example__\n\n    var s = java.newShort(12);\n\n<a name="javaNewLong" />\n**java.newLong(val)**\n\nCreates a new java long. This is needed because javascript does not have the concept of a long.\n\n__Arguments__\n\n * val - The value of the java long.\n\n__Example__\n\n    var s = java.newLong(12);\n\n<a name="javaNewChar" />\n**java.newChar(val)**\n\nCreates a new java char. This is needed because javascript does not have the concept of a char.\n\n__Arguments__\n\n * val - The value of the java char.\n\n__Example__\n\n    var ch = java.newChar(\'a\');\n\n<a name="javaNewDouble" />\n**java.newDouble(val)**\n\nCreates a new java double. This is needed to force javascript\'s number to a double to call some methods.\n\n__Arguments__\n\n * val - The value of the java double.\n\n__Example__\n\n    var d = java.newDouble(3.14);\n\n<a name="javaNewFloat" />\n**java.newFloat(val)**\n\nCreates a new java float. This is needed to force javascript\'s number to a float to call some methods.\n\n__Arguments__\n\n * val - The value of the java float.\n\n__Example__\n\n    var f = java.newFloat(3.14);\n\n<a name="javaNewProxy" />\n**java.newProxy(interfaceName, functions)**\n\nCreates a new java Proxy for the given interface. Functions passed in will run on the v8 main thread and not a new thread.\n\nThe returned object has two methods ref() and unref() which you can use to maintain references to prevent premature\ngarbage collection. You must call these methods to ensure the proxy stays around.\n\n__Arguments__\n\n * interfaceName - The name of the interface to proxy. For subclasses seperate using a \'$\' (eg. com.nearinfinty.MyClass$SubClass)\n * functions - A hash of functions matching the function in the interface.\n\n__Example__\n\n    var myProxy = java.newProxy(\'java.lang.Runnable\', {\n      run: function () {\n        // This is actually run on the v8 thread and not the new java thread\n        console.log("hello from thread");\n      }\n    });\n\n    var thread = java.newInstanceSync("java.lang.Thread", myProxy);\n    thread.start();\n\n<a name="javaObject"/>\n## java object\n\n<a name="javaObjectCallMethod" />\n**obj._methodName_([args...], callback)**\n\n**obj._methodNameSync_([args...]) : result**\n\nOnce you have a java object either by creating a new instance or as a result of a method call you can then call methods on that object.\nAll public, non-static methods are exposed in synchronous and asynchronous flavors.\n\n__Arguments__\n\n * args - The arguments to pass to the method.\n * callback(err, item) - Callback to be called when the method has completed.\n\n__Example__\n\n    var list = java.newInstanceSync("java.util.ArrayList");\n    list.addSync("item1");\n    list.add("item2", function(err, result) {\n      if(err) { console.error(err); return; }\n    });\n\n<a name="javaObjectGetSetField" />\n**obj._fieldName_ = val**\n\n**val = obj._fieldName_**\n\nOnce you have a java object either by creating a new instance or as a result of a method call you can get instance\nfield values.\n\n__Example__\n\n    var list = java.newInstanceSync("com.nearinfinty.MyClass");\n    list.data = "test";\n    var data = list.data;\n\n# Signal Handling\n\nThe JVM intercepts signals (Ctrl+C, etc.) before node/v8 gets to handle them. To fix this there are a couple options.\n\n## Signal Handling Option 1\n\nOne option to capture these events is to add the following.\n\n```\njava.options.push(\'-Xrs\');\n```\n\n## Signal Handling Option 2\n\nHook into the runtime shutdown hook.\n\nFirst create a java wrapper around the Runtime.addShutdownHook method to allow using a proxy object.\n\n```java\npublic class ShutdownHookHelper {\n  public static void setShutdownHook(final Runnable r) {\n    Runtime.getRuntime().addShutdownHook(new Thread() {\n      @Override\n      public void run() {\n        r.run();\n      }\n    });\n  }\n}\n```\n\nCompile ShutdownHookHelper and then use it as follows.\n\n```javascript\nvar java = require(\'./\');\njava.classpath.push(\'.\');\nvar ShutdownHookHelper = java.import(\'ShutdownHookHelper\');\n\nShutdownHookHelper.setShutdownHookSync(java.newProxy(\'java.lang.Runnable\', {\n  run: function () {\n    console.log("do shutdown stuff here instead.");\n  }\n}));\n```\n\n# Object lifetime\n\nWhen you call a Java method through node-java, any arguments (V8/JavaScript objects) will be converted to Java objects  on the v8 main thread via a call to v8ToJava (found in utils.cpp). The JavaScript object is not held on to and can be garbage collected by v8. If this is an async call, the reference count on the Java objects will be incremented. The Java method will be invoked in a node.js async thread (see uv_queue_work). When the method returns, the resulting object will be returned to the main v8 thread and converted to JavaScript objects via a call to javaToV8 and the Java object\'s reference count will then be decremented to allow for garbage collection. The resulting v8 object will then be returned to the callers callback function.\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2012 Near Infinity Corporation\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n"Software"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+37 silly resolved     readmeFilename: 'README.md',
+37 silly resolved     homepage: 'https://github.com/joeferner/node-java',
+37 silly resolved     _id: 'java@0.3.1',
+37 silly resolved     _from: 'java@' } ]
+38 info install java@0.3.1 into C:\xampp\htdocs\angular-seed-test
+39 info installOne java@0.3.1
+40 info C:\xampp\htdocs\angular-seed-test\node_modules\java unbuild
+41 verbose tar unpack C:\Users\Medion\AppData\Roaming\npm-cache\java\0.3.1\package.tgz
+42 silly lockFile e7207d19-ular-seed-test-node-modules-java tar://C:\xampp\htdocs\angular-seed-test\node_modules\java
+43 verbose lock tar://C:\xampp\htdocs\angular-seed-test\node_modules\java C:\Users\Medion\AppData\Roaming\npm-cache\e7207d19-ular-seed-test-node-modules-java.lock
+44 silly lockFile fff2a7f1-npm-cache-java-0-3-1-package-tgz tar://C:\Users\Medion\AppData\Roaming\npm-cache\java\0.3.1\package.tgz
+45 verbose lock tar://C:\Users\Medion\AppData\Roaming\npm-cache\java\0.3.1\package.tgz C:\Users\Medion\AppData\Roaming\npm-cache\fff2a7f1-npm-cache-java-0-3-1-package-tgz.lock
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 silly gunzTarPerm extractEntry package.json
+48 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+49 silly gunzTarPerm extractEntry .npmignore
+50 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+51 silly gunzTarPerm extractEntry README.md
+52 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+53 silly gunzTarPerm extractEntry LICENSE
+54 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+55 silly gunzTarPerm extractEntry testHelpers.js
+56 silly gunzTarPerm modified mode [ 'testHelpers.js', 438, 420 ]
+57 silly gunzTarPerm extractEntry findJavaHome.js
+58 silly gunzTarPerm modified mode [ 'findJavaHome.js', 438, 420 ]
+59 silly gunzTarPerm extractEntry index.js
+60 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+61 silly gunzTarPerm extractEntry mnm.js
+62 silly gunzTarPerm modified mode [ 'mnm.js', 438, 420 ]
+63 silly gunzTarPerm extractEntry compile-java-code.sh
+64 silly gunzTarPerm modified mode [ 'compile-java-code.sh', 438, 420 ]
+65 silly gunzTarPerm extractEntry lib/nodeJavaBridge.js
+66 silly gunzTarPerm modified mode [ 'lib/nodeJavaBridge.js', 438, 420 ]
+67 silly gunzTarPerm extractEntry binding.gyp
+68 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+69 silly gunzTarPerm extractEntry examples/lucene/example.js
+70 silly gunzTarPerm modified mode [ 'examples/lucene/example.js', 438, 420 ]
+71 silly gunzTarPerm extractEntry examples/lucene/lucene-core-3.5.0.jar
+72 silly gunzTarPerm modified mode [ 'examples/lucene/lucene-core-3.5.0.jar', 438, 420 ]
+73 silly gunzTarPerm extractEntry examples/mixJavaAndNode/runMyClass.js
+74 silly gunzTarPerm modified mode [ 'examples/mixJavaAndNode/runMyClass.js', 438, 420 ]
+75 silly gunzTarPerm extractEntry examples/mixJavaAndNode/src/com/nearinfinity/nodeJava/MyClass.class
+76 silly gunzTarPerm modified mode [ 'examples/mixJavaAndNode/src/com/nearinfinity/nodeJava/MyClass.class',
+76 silly gunzTarPerm   438,
+76 silly gunzTarPerm   420 ]
+77 silly gunzTarPerm extractEntry examples/mixJavaAndNode/src/com/nearinfinity/nodeJava/MyClass.java
+78 silly gunzTarPerm modified mode [ 'examples/mixJavaAndNode/src/com/nearinfinity/nodeJava/MyClass.java',
+78 silly gunzTarPerm   438,
+78 silly gunzTarPerm   420 ]
+79 silly gunzTarPerm extractEntry projectFilesBackup/.idea/libraries/sass_stdlib.xml
+80 silly gunzTarPerm modified mode [ 'projectFilesBackup/.idea/libraries/sass_stdlib.xml',
+80 silly gunzTarPerm   438,
+80 silly gunzTarPerm   420 ]
+81 silly gunzTarPerm extractEntry projectFilesBackup1/.idea/libraries/sass_stdlib.xml
+82 silly gunzTarPerm modified mode [ 'projectFilesBackup1/.idea/libraries/sass_stdlib.xml',
+82 silly gunzTarPerm   438,
+82 silly gunzTarPerm   420 ]
+83 silly gunzTarPerm extractEntry jarjar.rule
+84 silly gunzTarPerm modified mode [ 'jarjar.rule', 438, 420 ]
+85 silly gunzTarPerm extractEntry src/methodCallBaton.cpp
+86 silly gunzTarPerm modified mode [ 'src/methodCallBaton.cpp', 438, 420 ]
+87 silly gunzTarPerm extractEntry src/java.cpp
+88 silly gunzTarPerm modified mode [ 'src/java.cpp', 438, 420 ]
+89 silly gunzTarPerm extractEntry src/javaObject.cpp
+90 silly gunzTarPerm modified mode [ 'src/javaObject.cpp', 438, 420 ]
+91 silly gunzTarPerm extractEntry src/javaObject.h
+92 silly gunzTarPerm modified mode [ 'src/javaObject.h', 438, 420 ]
+93 silly gunzTarPerm extractEntry src/javaScope.cpp
+94 silly gunzTarPerm modified mode [ 'src/javaScope.cpp', 438, 420 ]
+95 silly gunzTarPerm extractEntry src/javaScope.h
+96 silly gunzTarPerm modified mode [ 'src/javaScope.h', 438, 420 ]
+97 silly gunzTarPerm extractEntry src/java.h
+98 silly gunzTarPerm modified mode [ 'src/java.h', 438, 420 ]
+99 silly gunzTarPerm extractEntry src/methodCallBaton.h
+100 silly gunzTarPerm modified mode [ 'src/methodCallBaton.h', 438, 420 ]
+101 silly gunzTarPerm extractEntry src/nodeJavaBridge.cpp
+102 silly gunzTarPerm modified mode [ 'src/nodeJavaBridge.cpp', 438, 420 ]
+103 silly gunzTarPerm extractEntry src/node_NodeDynamicProxyClass.h
+104 silly gunzTarPerm modified mode [ 'src/node_NodeDynamicProxyClass.h', 438, 420 ]
+105 silly gunzTarPerm extractEntry src/utils.cpp
+106 silly gunzTarPerm modified mode [ 'src/utils.cpp', 438, 420 ]
+107 silly gunzTarPerm extractEntry src/utils.h
+108 silly gunzTarPerm modified mode [ 'src/utils.h', 438, 420 ]
+109 silly gunzTarPerm extractEntry src-java/node/NodeDynamicProxyClass.class
+110 silly gunzTarPerm modified mode [ 'src-java/node/NodeDynamicProxyClass.class', 438, 420 ]
+111 silly gunzTarPerm extractEntry src-java/node/NodeDynamicProxyClass.java
+112 silly gunzTarPerm modified mode [ 'src-java/node/NodeDynamicProxyClass.java', 438, 420 ]
+113 silly gunzTarPerm extractEntry test/awt-test.js
+114 silly gunzTarPerm modified mode [ 'test/awt-test.js', 438, 420 ]
+115 silly gunzTarPerm extractEntry test/dynamicProxy-test.js
+116 silly gunzTarPerm modified mode [ 'test/dynamicProxy-test.js', 438, 420 ]
+117 silly gunzTarPerm extractEntry test/importClass-test.js
+118 silly gunzTarPerm modified mode [ 'test/importClass-test.js', 438, 420 ]
+119 silly gunzTarPerm extractEntry test/instanceof-test.js
+120 silly gunzTarPerm modified mode [ 'test/instanceof-test.js', 438, 420 ]
+121 silly gunzTarPerm extractEntry test/java-callStaticMethod-test.js
+122 silly gunzTarPerm modified mode [ 'test/java-callStaticMethod-test.js', 438, 420 ]
+123 silly gunzTarPerm extractEntry test/java-newInstance-test.js
+124 silly gunzTarPerm modified mode [ 'test/java-newInstance-test.js', 438, 420 ]
+125 silly gunzTarPerm extractEntry test/java-staticField-test.js
+126 silly gunzTarPerm modified mode [ 'test/java-staticField-test.js', 438, 420 ]
+127 silly gunzTarPerm extractEntry test/javaObject-test.js
+128 silly gunzTarPerm modified mode [ 'test/javaObject-test.js', 438, 420 ]
+129 silly gunzTarPerm extractEntry test/simple-test.js
+130 silly gunzTarPerm modified mode [ 'test/simple-test.js', 438, 420 ]
+131 silly gunzTarPerm extractEntry test/utils-types-test.js
+132 silly gunzTarPerm modified mode [ 'test/utils-types-test.js', 438, 420 ]
+133 silly gunzTarPerm extractEntry test/Test$SubClass.class
+134 silly gunzTarPerm modified mode [ 'test/Test$SubClass.class', 438, 420 ]
+135 silly gunzTarPerm extractEntry test/RunInterface$Interface0Arg.class
+136 silly gunzTarPerm modified mode [ 'test/RunInterface$Interface0Arg.class', 438, 420 ]
+137 silly gunzTarPerm extractEntry test/RunInterface$InterfaceWithReturn.class
+138 silly gunzTarPerm modified mode [ 'test/RunInterface$InterfaceWithReturn.class', 438, 420 ]
+139 silly gunzTarPerm extractEntry test/RunInterface.class
+140 silly gunzTarPerm modified mode [ 'test/RunInterface.class', 438, 420 ]
+141 silly gunzTarPerm extractEntry test/RunInterface.java
+142 silly gunzTarPerm modified mode [ 'test/RunInterface.java', 438, 420 ]
+143 silly gunzTarPerm extractEntry test/nodejs.png
+144 silly gunzTarPerm modified mode [ 'test/nodejs.png', 438, 420 ]
+145 silly gunzTarPerm extractEntry test/commons-lang3-3.1.jar
+146 silly gunzTarPerm modified mode [ 'test/commons-lang3-3.1.jar', 438, 420 ]
+147 silly gunzTarPerm extractEntry test/Test$SuperClass.class
+148 silly gunzTarPerm modified mode [ 'test/Test$SuperClass.class', 438, 420 ]
+149 silly gunzTarPerm extractEntry test/Test.class
+150 silly gunzTarPerm modified mode [ 'test/Test.class', 438, 420 ]
+151 silly gunzTarPerm extractEntry test/Test.java
+152 silly gunzTarPerm modified mode [ 'test/Test.java', 438, 420 ]
+153 silly gunzTarPerm extractEntry test/TestExceptions.class
+154 silly gunzTarPerm modified mode [ 'test/TestExceptions.class', 438, 420 ]
+155 silly gunzTarPerm extractEntry test/TestExceptions.java
+156 silly gunzTarPerm modified mode [ 'test/TestExceptions.java', 438, 420 ]
+157 silly gunzTarPerm extractEntry test/RunInterface$Interface1Arg.class
+158 silly gunzTarPerm modified mode [ 'test/RunInterface$Interface1Arg.class', 438, 420 ]
+159 silly gunzTarPerm extractEntry commons-lang3-node-java.jar
+160 silly gunzTarPerm modified mode [ 'commons-lang3-node-java.jar', 438, 420 ]
+161 silly gunzTarPerm extractEntry touch.py
+162 silly gunzTarPerm modified mode [ 'touch.py', 438, 420 ]
+163 silly lockFile e7207d19-ular-seed-test-node-modules-java tar://C:\xampp\htdocs\angular-seed-test\node_modules\java
+164 silly lockFile e7207d19-ular-seed-test-node-modules-java tar://C:\xampp\htdocs\angular-seed-test\node_modules\java
+165 silly lockFile fff2a7f1-npm-cache-java-0-3-1-package-tgz tar://C:\Users\Medion\AppData\Roaming\npm-cache\java\0.3.1\package.tgz
+166 silly lockFile fff2a7f1-npm-cache-java-0-3-1-package-tgz tar://C:\Users\Medion\AppData\Roaming\npm-cache\java\0.3.1\package.tgz
+167 info preinstall java@0.3.1
+168 verbose readDependencies using package.json deps
+169 verbose readDependencies using package.json deps
+170 verbose cache add [ 'find-java-home@0.0.6', null ]
+171 verbose cache add name=undefined spec="find-java-home@0.0.6" args=["find-java-home@0.0.6",null]
+172 verbose parsed url { protocol: null,
+172 verbose parsed url   slashes: null,
+172 verbose parsed url   auth: null,
+172 verbose parsed url   host: null,
+172 verbose parsed url   port: null,
+172 verbose parsed url   hostname: null,
+172 verbose parsed url   hash: null,
+172 verbose parsed url   search: null,
+172 verbose parsed url   query: null,
+172 verbose parsed url   pathname: 'find-java-home@0.0.6',
+172 verbose parsed url   path: 'find-java-home@0.0.6',
+172 verbose parsed url   href: 'find-java-home@0.0.6' }
+173 verbose cache add name="find-java-home" spec="0.0.6" args=["find-java-home","0.0.6"]
+174 verbose parsed url { protocol: null,
+174 verbose parsed url   slashes: null,
+174 verbose parsed url   auth: null,
+174 verbose parsed url   host: null,
+174 verbose parsed url   port: null,
+174 verbose parsed url   hostname: null,
+174 verbose parsed url   hash: null,
+174 verbose parsed url   search: null,
+174 verbose parsed url   query: null,
+174 verbose parsed url   pathname: '0.0.6',
+174 verbose parsed url   path: '0.0.6',
+174 verbose parsed url   href: '0.0.6' }
+175 verbose addNamed [ 'find-java-home', '0.0.6' ]
+176 verbose addNamed [ '0.0.6', '0.0.6' ]
+177 silly lockFile 03f79001-find-java-home-0-0-6 find-java-home@0.0.6
+178 verbose lock find-java-home@0.0.6 C:\Users\Medion\AppData\Roaming\npm-cache\03f79001-find-java-home-0-0-6.lock
+179 verbose url raw find-java-home/0.0.6
+180 verbose url resolving [ 'https://registry.npmjs.org/', './find-java-home/0.0.6' ]
+181 verbose url resolved https://registry.npmjs.org/find-java-home/0.0.6
+182 info trying registry request attempt 1 at 23:16:57
+183 verbose etag "1GBWXKZ23BQSOMTE7AGXJ50SN"
+184 http GET https://registry.npmjs.org/find-java-home/0.0.6
+185 http 304 https://registry.npmjs.org/find-java-home/0.0.6
+186 silly registry.get cb [ 304,
+186 silly registry.get   { date: 'Mon, 14 Apr 2014 22:16:56 GMT',
+186 silly registry.get     server: 'Apache',
+186 silly registry.get     via: '1.1 varnish',
+186 silly registry.get     'last-modified': 'Mon, 14 Apr 2014 22:16:56 GMT',
+186 silly registry.get     'cache-control': 'max-age=1',
+186 silly registry.get     etag: '"1GBWXKZ23BQSOMTE7AGXJ50SN"',
+186 silly registry.get     'x-served-by': 'cache-lo81-LHR',
+186 silly registry.get     'x-cache': 'MISS',
+186 silly registry.get     'x-cache-hits': '0',
+186 silly registry.get     'x-timer': 'S1397513816.230315685,VS0,VE180',
+186 silly registry.get     vary: 'Accept',
+186 silly registry.get     'content-length': '0',
+186 silly registry.get     'keep-alive': 'timeout=10, max=50',
+186 silly registry.get     connection: 'Keep-Alive' } ]
+187 verbose etag find-java-home/0.0.6 from cache
+188 silly lockFile 03f79001-find-java-home-0-0-6 find-java-home@0.0.6
+189 silly lockFile 03f79001-find-java-home-0-0-6 find-java-home@0.0.6
+190 silly resolved [ { name: 'find-java-home',
+190 silly resolved     version: '0.0.6',
+190 silly resolved     description: 'Find JAVA_HOME on any system',
+190 silly resolved     main: 'index.js',
+190 silly resolved     scripts: { test: 'node test.js' },
+190 silly resolved     repository:
+190 silly resolved      { type: 'git',
+190 silly resolved        url: 'https://github.com/jsdevel/node-find-java-home.git' },
+190 silly resolved     dependencies: { 'find-in-path': '' },
+190 silly resolved     keywords: [ 'JAVA_HOME', 'find', 'java', 'home' ],
+190 silly resolved     author: { name: 'Joseph Spencer' },
+190 silly resolved     license: 'Apache 2.0',
+190 silly resolved     bugs: { url: 'https://github.com/jsdevel/node-find-java-home/issues' },
+190 silly resolved     homepage: 'https://github.com/jsdevel/node-find-java-home',
+190 silly resolved     readme: '#node-find-java-home\n\nReturns the location of JAVA_HOME as an absolute path on windows, mac, and \nlinux.  It runs asynchronously.\n\n##Algorithm\n1. This module will first attempt to check for JAVA_HOME.  If that\'s set it\nsimply returns that value.  \n2. On windows the registry is queried.\n3. If neither of the previous methods worked, then the PATH is scanned for javac\n4. On mac, the parent directory of javac is checked for a java_home binary.  If that binary exists then it is executed and the result is used\n5. The grandparent directory of javac is used.  This is similar to `$(dirname $(dirname $(readlink $(which javac))))`\n\n##Example\n````javascript\nrequire(\'find-java-home\')(function(err, home){\n  if(err)return console.log(err);\n  console.log(home);\n});\n````\n\n##License\n````\nCopyright 2013 Joseph Spencer.\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n      http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n````\n',
+190 silly resolved     readmeFilename: 'README.md',
+190 silly resolved     _id: 'find-java-home@0.0.6',
+190 silly resolved     _from: 'find-java-home@0.0.6' } ]
+191 info install find-java-home@0.0.6 into C:\xampp\htdocs\angular-seed-test\node_modules\java
+192 info installOne find-java-home@0.0.6
+193 info C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home unbuild
+194 verbose tar unpack C:\Users\Medion\AppData\Roaming\npm-cache\find-java-home\0.0.6\package.tgz
+195 silly lockFile ce419a19-java-node-modules-find-java-home tar://C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home
+196 verbose lock tar://C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home C:\Users\Medion\AppData\Roaming\npm-cache\ce419a19-java-node-modules-find-java-home.lock
+197 silly lockFile ff7603da-find-java-home-0-0-6-package-tgz tar://C:\Users\Medion\AppData\Roaming\npm-cache\find-java-home\0.0.6\package.tgz
+198 verbose lock tar://C:\Users\Medion\AppData\Roaming\npm-cache\find-java-home\0.0.6\package.tgz C:\Users\Medion\AppData\Roaming\npm-cache\ff7603da-find-java-home-0-0-6-package-tgz.lock
+199 silly gunzTarPerm modes [ '755', '644' ]
+200 silly gunzTarPerm extractEntry package.json
+201 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+202 silly gunzTarPerm extractEntry .npmignore
+203 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+204 silly gunzTarPerm extractEntry README.md
+205 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+206 silly gunzTarPerm extractEntry LICENSE
+207 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+208 silly gunzTarPerm extractEntry index.js
+209 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+210 silly gunzTarPerm extractEntry test.js
+211 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+212 silly lockFile ce419a19-java-node-modules-find-java-home tar://C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home
+213 silly lockFile ce419a19-java-node-modules-find-java-home tar://C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home
+214 silly lockFile ff7603da-find-java-home-0-0-6-package-tgz tar://C:\Users\Medion\AppData\Roaming\npm-cache\find-java-home\0.0.6\package.tgz
+215 silly lockFile ff7603da-find-java-home-0-0-6-package-tgz tar://C:\Users\Medion\AppData\Roaming\npm-cache\find-java-home\0.0.6\package.tgz
+216 info preinstall find-java-home@0.0.6
+217 verbose readDependencies using package.json deps
+218 verbose readDependencies using package.json deps
+219 verbose cache add [ 'find-in-path@', null ]
+220 verbose cache add name=undefined spec="find-in-path@" args=["find-in-path@",null]
+221 verbose parsed url { protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: 'find-in-path@',
+221 verbose parsed url   path: 'find-in-path@',
+221 verbose parsed url   href: 'find-in-path@' }
+222 verbose cache add name="find-in-path" spec="" args=["find-in-path",""]
+223 verbose parsed url { protocol: null,
+223 verbose parsed url   slashes: null,
+223 verbose parsed url   auth: null,
+223 verbose parsed url   host: null,
+223 verbose parsed url   port: null,
+223 verbose parsed url   hostname: null,
+223 verbose parsed url   hash: null,
+223 verbose parsed url   search: null,
+223 verbose parsed url   query: null,
+223 verbose parsed url   pathname: null,
+223 verbose parsed url   path: null,
+223 verbose parsed url   href: '' }
+224 verbose addNamed [ 'find-in-path', '' ]
+225 verbose addNamed [ null, '*' ]
+226 silly lockFile be041f9c-find-in-path find-in-path@
+227 verbose lock find-in-path@ C:\Users\Medion\AppData\Roaming\npm-cache\be041f9c-find-in-path.lock
+228 silly addNameRange { name: 'find-in-path', range: '*', hasData: false }
+229 verbose url raw find-in-path
+230 verbose url resolving [ 'https://registry.npmjs.org/', './find-in-path' ]
+231 verbose url resolved https://registry.npmjs.org/find-in-path
+232 info trying registry request attempt 1 at 23:16:58
+233 verbose etag "ENXXHVG5SVMRMRIIOJACM7OJ7"
+234 http GET https://registry.npmjs.org/find-in-path
+235 http 304 https://registry.npmjs.org/find-in-path
+236 silly registry.get cb [ 304,
+236 silly registry.get   { date: 'Mon, 14 Apr 2014 22:16:56 GMT',
+236 silly registry.get     server: 'Apache',
+236 silly registry.get     via: '1.1 varnish',
+236 silly registry.get     'last-modified': 'Mon, 14 Apr 2014 22:16:56 GMT',
+236 silly registry.get     'cache-control': 'max-age=1',
+236 silly registry.get     etag: '"ENXXHVG5SVMRMRIIOJACM7OJ7"',
+236 silly registry.get     'x-served-by': 'cache-lo82-LHR',
+236 silly registry.get     'x-cache': 'MISS',
+236 silly registry.get     'x-cache-hits': '0',
+236 silly registry.get     'x-timer': 'S1397513816.718624115,VS0,VE229',
+236 silly registry.get     vary: 'Accept',
+236 silly registry.get     'content-length': '0',
+236 silly registry.get     'keep-alive': 'timeout=10, max=50',
+236 silly registry.get     connection: 'Keep-Alive' } ]
+237 verbose etag find-in-path from cache
+238 silly addNameRange number 2 { name: 'find-in-path', range: '*', hasData: true }
+239 silly addNameRange versions [ 'find-in-path', [ '0.0.0', '0.0.1' ] ]
+240 verbose addNamed [ 'find-in-path', '0.0.1' ]
+241 verbose addNamed [ '0.0.1', '0.0.1' ]
+242 silly lockFile bbeae006-find-in-path-0-0-1 find-in-path@0.0.1
+243 verbose lock find-in-path@0.0.1 C:\Users\Medion\AppData\Roaming\npm-cache\bbeae006-find-in-path-0-0-1.lock
+244 silly lockFile bbeae006-find-in-path-0-0-1 find-in-path@0.0.1
+245 silly lockFile bbeae006-find-in-path-0-0-1 find-in-path@0.0.1
+246 silly lockFile be041f9c-find-in-path find-in-path@
+247 silly lockFile be041f9c-find-in-path find-in-path@
+248 silly resolved [ { name: 'find-in-path',
+248 silly resolved     version: '0.0.1',
+248 silly resolved     description: 'Find a directory or file from the PATH and return the absolute path.',
+248 silly resolved     main: 'find-in-path.js',
+248 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+248 silly resolved     repository:
+248 silly resolved      { type: 'git',
+248 silly resolved        url: 'https://github.com/jsdevel/node-find-in-path.git' },
+248 silly resolved     keywords: [ 'find', 'path' ],
+248 silly resolved     author: { name: 'Joseph Spencer' },
+248 silly resolved     license: 'APACHE 2.0',
+248 silly resolved     bugs: { url: 'https://github.com/jsdevel/node-find-in-path/issues' },
+248 silly resolved     readme: '#node-find-in-path\n\nFind a directory or file in your path.\n\n##Example\n````javascript\nvar mod = require(\'./find-in-path\');\n\nmod(\'netstat\', function(err, path){\n   console.log(err);\n   console.log(path);\n});\n````\n\nPrints `/bin/netstat` on linux;\n\n##License\n````\nCopyright 2013 Joseph Spencer.\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n      http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n````\n',
+248 silly resolved     readmeFilename: 'README.md',
+248 silly resolved     homepage: 'https://github.com/jsdevel/node-find-in-path',
+248 silly resolved     _id: 'find-in-path@0.0.1',
+248 silly resolved     _from: 'find-in-path@' } ]
+249 info install find-in-path@0.0.1 into C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home
+250 info installOne find-in-path@0.0.1
+251 info C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home\node_modules\find-in-path unbuild
+252 verbose tar unpack C:\Users\Medion\AppData\Roaming\npm-cache\find-in-path\0.0.1\package.tgz
+253 silly lockFile 55216230-a-home-node-modules-find-in-path tar://C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home\node_modules\find-in-path
+254 verbose lock tar://C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home\node_modules\find-in-path C:\Users\Medion\AppData\Roaming\npm-cache\55216230-a-home-node-modules-find-in-path.lock
+255 silly lockFile 9cc49d21-e-find-in-path-0-0-1-package-tgz tar://C:\Users\Medion\AppData\Roaming\npm-cache\find-in-path\0.0.1\package.tgz
+256 verbose lock tar://C:\Users\Medion\AppData\Roaming\npm-cache\find-in-path\0.0.1\package.tgz C:\Users\Medion\AppData\Roaming\npm-cache\9cc49d21-e-find-in-path-0-0-1-package-tgz.lock
+257 silly gunzTarPerm modes [ '755', '644' ]
+258 silly gunzTarPerm extractEntry package.json
+259 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+260 silly gunzTarPerm extractEntry README.md
+261 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+262 silly gunzTarPerm extractEntry LICENSE
+263 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+264 silly gunzTarPerm extractEntry find-in-path.js
+265 silly gunzTarPerm modified mode [ 'find-in-path.js', 438, 420 ]
+266 silly gunzTarPerm extractEntry test.js
+267 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+268 silly lockFile 55216230-a-home-node-modules-find-in-path tar://C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home\node_modules\find-in-path
+269 silly lockFile 55216230-a-home-node-modules-find-in-path tar://C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home\node_modules\find-in-path
+270 silly lockFile 9cc49d21-e-find-in-path-0-0-1-package-tgz tar://C:\Users\Medion\AppData\Roaming\npm-cache\find-in-path\0.0.1\package.tgz
+271 silly lockFile 9cc49d21-e-find-in-path-0-0-1-package-tgz tar://C:\Users\Medion\AppData\Roaming\npm-cache\find-in-path\0.0.1\package.tgz
+272 info preinstall find-in-path@0.0.1
+273 verbose readDependencies using package.json deps
+274 verbose readDependencies using package.json deps
+275 silly resolved []
+276 verbose about to build C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home\node_modules\find-in-path
+277 info build C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home\node_modules\find-in-path
+278 verbose linkStuff [ false,
+278 verbose linkStuff   false,
+278 verbose linkStuff   false,
+278 verbose linkStuff   'C:\\xampp\\htdocs\\angular-seed-test\\node_modules\\java\\node_modules\\find-java-home\\node_modules' ]
+279 info linkStuff find-in-path@0.0.1
+280 verbose linkBins find-in-path@0.0.1
+281 verbose linkMans find-in-path@0.0.1
+282 verbose rebuildBundles find-in-path@0.0.1
+283 info install find-in-path@0.0.1
+284 info postinstall find-in-path@0.0.1
+285 verbose about to build C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home
+286 info build C:\xampp\htdocs\angular-seed-test\node_modules\java\node_modules\find-java-home
+287 verbose linkStuff [ false,
+287 verbose linkStuff   false,
+287 verbose linkStuff   false,
+287 verbose linkStuff   'C:\\xampp\\htdocs\\angular-seed-test\\node_modules\\java\\node_modules' ]
+288 info linkStuff find-java-home@0.0.6
+289 verbose linkBins find-java-home@0.0.6
+290 verbose linkMans find-java-home@0.0.6
+291 verbose rebuildBundles find-java-home@0.0.6
+292 verbose rebuildBundles [ 'find-in-path' ]
+293 info install find-java-home@0.0.6
+294 info postinstall find-java-home@0.0.6
+295 verbose about to build C:\xampp\htdocs\angular-seed-test\node_modules\java
+296 info build C:\xampp\htdocs\angular-seed-test\node_modules\java
+297 verbose linkStuff [ false,
+297 verbose linkStuff   false,
+297 verbose linkStuff   false,
+297 verbose linkStuff   'C:\\xampp\\htdocs\\angular-seed-test\\node_modules' ]
+298 info linkStuff java@0.3.1
+299 verbose linkBins java@0.3.1
+300 verbose linkMans java@0.3.1
+301 verbose rebuildBundles java@0.3.1
+302 verbose rebuildBundles [ 'find-java-home' ]
+303 info install java@0.3.1
+304 verbose unsafe-perm in lifecycle true
+305 info java@0.3.1 Failed to exec install script
+306 info C:\xampp\htdocs\angular-seed-test\node_modules\java unbuild
+307 info preuninstall java@0.3.1
+308 info uninstall java@0.3.1
+309 verbose true,C:\xampp\htdocs\angular-seed-test\node_modules,C:\xampp\htdocs\angular-seed-test\node_modules unbuild java@0.3.1
+310 info postuninstall java@0.3.1
+311 error java@0.3.1 install: `node-gyp rebuild`
+311 error Exit status 1
+312 error Failed at the java@0.3.1 install script.
+312 error This is most likely a problem with the java package,
+312 error not with npm itself.
+312 error Tell the author that this fails on your system:
+312 error     node-gyp rebuild
+312 error You can get their info via:
+312 error     npm owner ls java
+312 error There is likely additional logging output above.
+313 error System Windows_NT 6.1.7601
+314 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "java"
+315 error cwd C:\xampp\htdocs\angular-seed-test
+316 error node -v v0.10.23
+317 error npm -v 1.3.17
+318 error code ELIFECYCLE
+319 verbose exit [ 1, true ]

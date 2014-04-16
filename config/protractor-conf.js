@@ -8,8 +8,11 @@ exports.config = {
   capabilities: {
     'browserName': 'chrome'
   },
+//chromeDriver: 'C:/Users/Medion/AppData/Roaming/npm/node_modules/protractor/selenium/chromedriver.exe',
 
-  baseUrl: 'http://localhost:8000/app/',
+//seleniumServerJar: 'C:/Users/Medion/AppData/Roaming/npm/node_modules/protractor/selenium/selenium-server-standalone-2.39.0.jar',
+
+  baseUrl: 'http://localhost/angular-seed-test/app/',
 
   framework: 'jasmine',
 
